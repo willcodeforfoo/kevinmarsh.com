@@ -4,7 +4,7 @@ title: "The Changelog #100: Go programming with Rob Pike and Andrew Gerrand"
 date: 2013-08-15
 categories: Notes
 redirect_from:
-  - /blog/the-changelog-number-100-go-programming-with-rob-pike-and-andrew-gerrand
+  - /blog/the-changelog-number-100-go-programming-with-rob-pike-and-andrew-gerrand/
 ---
 http://5by5.tv/changelog/100
 

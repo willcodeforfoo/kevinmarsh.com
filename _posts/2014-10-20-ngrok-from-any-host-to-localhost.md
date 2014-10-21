@@ -3,7 +3,7 @@ layout: post
 title: "ngrok: From any host to localhost"
 date: 2014-10-20 22:05:42
 redirect_from:
-  - /blog/ngrok-from-any-host-to-localhost
+  - /blog/ngrok-from-any-host-to-localhost/
 ---
 Ever need to give someone a URL to access a server running locally on your machine? Perhaps you had to forward ports or mess with some SSH reverse tunneling. Next time try [ngrok](https://ngrok.com/)!
 
