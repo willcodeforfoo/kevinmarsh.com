@@ -1,11 +1,5 @@
 @font-face {
-  font-family: 'Mono Social Icons Font';
-  src: asset-url('/assets/fonts/MonoSocialIconsFont-1.10.eot');
-  src: asset-url('/assets/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-       asset-url('/assets/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-       asset-url('/assets/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-       asset-url('/assets/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-  src: asset-url('/assets/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MonoSocialIconsFont';
+  src: url('/assets/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/assets/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
