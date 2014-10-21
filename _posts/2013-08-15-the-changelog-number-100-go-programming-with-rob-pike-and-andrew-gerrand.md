@@ -2,6 +2,7 @@
 layout: post
 title: "The Changelog #100: Go programming with Rob Pike and Andrew Gerrand"
 date: 2013-08-15
+categories: Notes
 ---
 http://5by5.tv/changelog/100
 

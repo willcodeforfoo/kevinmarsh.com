@@ -31,7 +31,7 @@
         <div id="social-links">
           <a href="http://twitter.com/willcodeforfoo">circletwitterbird</a>
           <a href="http://github.com/willcodeforfoo">circlegithub</a>
-          <a href="/feed.rss">circlerss</a>
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}">circlerss</a>
         </div>
         </a>
       </header>
@@ -39,12 +39,10 @@
 
     <div class="pure-u-1">
       <div class="content">
-        <div class="posts">
-          {{content}}
-        </div>
+        {{ content }}
 
         <div class="pure-g-r" id="footer">
-          <div class="pure-u-2-5">
+          <div class="pure-u-1">
             Copyright &copy; 2004&ndash;2014 Kevin Marsh. All rights reserved.
           </div>
         </div>
