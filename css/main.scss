@@ -180,6 +180,11 @@ pre {
 .post-description {
     color: #444;
     line-height: 1.8em;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 .post-meta {
     color: #999;
