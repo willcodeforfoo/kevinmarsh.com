@@ -17,4 +17,4 @@ end
 
 Combine this with a call to [Pry](http://pryrepl.org/)'s `binding.pry` and now you can interact with your page and see the results of your [capybara](https://github.com/jnicklas/capybara) commands. Kind of like a web browser, but in your terminal!
 
-![Screenshot](http://cl.ly/VOZW/Screen%20Shot%202014-05-07%20at%2011.13.10%20AM.png)
+![Screenshot](http://d1j4kwyjzsqmb8.cloudfront.net/20140507111310.png)

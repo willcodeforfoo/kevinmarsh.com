@@ -15,7 +15,7 @@ Here's how to get started:
 
 You should see something like this:
 
-![](http://cl.ly/Y7nY/Screen%20Shot%202014-10-20%20at%206.02.15%20PM.png)
+![Screenshot](http://d1j4kwyjzsqmb8.cloudfront.net/20141020180215.png)
 
 And it's capable of so much more:
 
