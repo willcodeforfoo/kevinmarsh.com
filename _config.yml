@@ -12,11 +12,16 @@ url: "http://kevinmarsh.com"
 twitter_username: willcodeforfoo
 github_username: willcodeforfoo
 
-# Build settings
-markdown: kramdown
+lsi: true
 
-kramdown:
-  input: GFM
+markdown: redcarpet
+highlighter: pygments
+
+redcarpet:
+  extensions:
+    - autolink
+    - footnotes
+    - tables
 
 gems:
   - jekyll-redirect-from

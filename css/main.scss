@@ -52,15 +52,6 @@ a:focus {
     text-decoration: underline;
 }
 
-pre {
-    border-left: 5px solid #eee;
-    padding-left: 1em;
-    overflow: auto;
-    word-wrap: normal;
-    white-space: pre;
-    font: 0.8em/140% "Inconsolata", "Menlo", "Monaco", monospace;
-}
-
 .highlight {
     @import "pygments";
 }
@@ -158,6 +149,23 @@ pre {
 .post {
     padding-bottom: 2em;
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    pre {
+        border-left: 5px solid #eee;
+        padding-left: 1em;
+        overflow: auto;
+        word-wrap: normal;
+        white-space: pre;
+    }
+
+    pre, code {
+        font: 0.95em/140% "Inconsolata", "Menlo", "Monaco", monospace;
+    }
+
     .footnotes {
         font-size: 0.85em;
         line-height: 1.7em;
@@ -180,11 +188,6 @@ pre {
 .post-description {
     color: #444;
     line-height: 1.8em;
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
 }
 .post-meta {
     color: #999;
