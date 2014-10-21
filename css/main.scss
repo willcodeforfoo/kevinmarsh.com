@@ -3,47 +3,256 @@
 ---
 @charset "utf-8";
 
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables";
+@import "fonts";
+@import "pygments";
 
+#social-links {
+    @include optimizeLegibility;
+    @include antialiased;
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+    margin-top: 1em;
 
-$spacing-unit:     30px;
+    a {
+        margin-left: 0.25em;
+        font-family: 'Mono Social Icons Font';
+        font-size: 2em;
+        color: $sidebarLinkColor;
+        text-decoration: none;
+        opacity: 0.3;
+        @include transition(opacity, .25s);
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+        &:hover {
+            color: $sidebarLinkHoverColor;
+        }
     }
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+/* Fixes an issue with extra margin after rotating */
+html, body { width: 100%;  overflow-x: hidden; }
+
+a {
+    text-decoration: none;
+    color: $linkColor;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+pre {
+    border-left: 5px solid #eee;
+    padding-left: 1em;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    font: 0.8em/140% "Inconsolata", "Menlo", "Monaco", monospace;
+}
+
+.highlight {
+    @import "pygments";
+}
+
+/* LAYOUT CSS */
+#layout {
+    padding-left: 25%; /* "left col (nav + list)" width */
+    position: relative;
+}
+
+#footer {
+    margin: 2em 0;
+    font-size: 80%;
+    color: $footerColor;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    margin-left: -25%;
+    background-color: $sidebarBackgroundColor;
+    color: #fff;
+
+    &:hover #social-links a {
+        opacity: 1.0;
+    }
+}
+
+.header {
+    margin: 50% 2em 0;
+    text-align: right;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.brand-title,
+.brand-tagline {
+    color: $sidebarForegroundColor;
+    margin: 0;
+}
+.brand-title {
+    color: $sidebarTitleColor;
+}
+.brand-tagline {
+    font-weight: 300;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 3px solid rgb(103, 103, 180);
+    color: #fff;
+    margin-top: 1em;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 3px solid rgb(142, 142, 214);
+    color: rgb(142, 142, 214);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 3em 0;
+}
+
+.posts {
+    .post {
+        border-bottom: 1px solid $postBorderColor;
+    }
+}
+
+.post {
+    padding-bottom: 2em;
+
+    .footnotes {
+        font-size: 0.85em;
+        line-height: 1.7em;
+        color: #666;
+        hr {
+            display: none;
+        }
+    }
+}
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+    color: #444;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+    .post-category-meta {
+        background: #5aba59;
+    }
+    .post-category-notes {
+        background: #4d85d1;
+    }
+    .post-category-programming {
+        background: #8156a7;
+    }
+    .post-category-ruby {
+        background: #df2d4f;
+    }
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .header {
+        text-align: center;
+        top: auto;
+        margin: 3em auto;
+        position: static;
+    }
+
+    #layout {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-tagline {
+        font-size: 1.4em;
+    }
+    .content {
+        padding: 2em 1em 0;
+    }
+}
