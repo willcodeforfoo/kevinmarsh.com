@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kevinmarsh.com"
 twitter_username: willcodeforfoo
 github_username: willcodeforfoo
-
+permalink: /:year/:month/:day/:title.html
 lsi: true
 
 markdown: redcarpet
@@ -25,3 +25,4 @@ redcarpet:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
