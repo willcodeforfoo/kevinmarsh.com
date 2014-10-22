@@ -10,6 +10,12 @@ layout: default
 
     <p class="post-meta">
       {{ page.date | date: "%B %-d, %Y" }}
+      {% if page.categories.size > 0 %}
+        in
+        {% for cat in page.categories %}
+        <span class="post-category post-category-{{ cat }}">{{ cat | capitalize }}</span>
+        {% endfor %}
+      {% endif %}
     </p>
   </header>
 
