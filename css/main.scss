@@ -225,6 +225,10 @@ a:focus {
     text-shadow: 0 1px 1px #333;
 }
 
+.more-posts {
+
+}
+
 .footer {
     text-align: center;
     padding: 1em 0;
@@ -236,6 +240,30 @@ a:focus {
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
     background: none;
+}
+
+.more-posts {
+    table {
+        width: 100%;
+    }
+
+    .more-posts-date.mobile {
+        color: #777;
+        font-size: 0.75em;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
 }
 
 @media (max-width: 767px) {
