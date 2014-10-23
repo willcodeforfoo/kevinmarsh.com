@@ -166,6 +166,13 @@ a:focus {
         font: 0.95em/140% "Inconsolata", "Menlo", "Monaco", monospace;
     }
 
+    code {
+        padding: 2px 4px;
+        background-color: #f8f8f8;
+        border: 1px solid #eaeaea;
+        border-radius: 3px;
+    }
+
     .footnotes {
         font-size: 0.85em;
         line-height: 1.7em;
