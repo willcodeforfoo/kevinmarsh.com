@@ -173,6 +173,13 @@ a:focus {
         border-radius: 3px;
     }
 
+    pre code {
+        padding: 0;
+        background: none;
+        border: none;
+        border-radius: none;
+    }
+
     .footnotes {
         font-size: 0.85em;
         line-height: 1.7em;
