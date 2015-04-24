@@ -7,7 +7,7 @@ date: 2015-04-24 17:58:22
 Is a bookmark still useful a month after I post it? You be the judge.
 
 * [LAPIS - Editing Text with Lightweight Structure](http://groups.csail.mit.edu/uid/lapis/) - Edit by example
-* [TextBar Puts Your Text into the Menu Bar](http://www.macstories.net/mac/textbar-puts-your-text-into-the-menu-bar/) - TextBar Puts Your Text into the Menu Bar http://ift.tt/1DEUSER
+* [TextBar Puts Your Text into the Menu Bar](http://www.macstories.net/mac/textbar-puts-your-text-into-the-menu-bar/) - Like [AnyBar](https://github.com/tonsky/AnyBar), but with text!
 * [FormatJS](http://formatjs.io/) - Not just for translation, but also formatting numbers and dates
 * [Docker with Compose, Machine and Swarm, easy steps from localhost to cloud providers](http://flurdy.com/docs/docker/docker_compose_machine_swarm_cloud.html)
 * [Restaurants on TV, Diners Drive-Ins and Dives, Man vs Food, Best Thing I Ever Ate & more](http://www.tvfoodmaps.com/)
