@@ -4,22 +4,34 @@ title: "2016 Linux Desktop"
 date: 2016-02-06 16:30:00
 ---
 
-So, I decided to give Linux on the desktop a try. An aging 2012 Retina MacBook Pro that couldn't drive my new Dell P2715Q 4K monitor and the suspense of waiting for Skylake replacements reminded me to take a second look at the PC I put together a few years ago as Hackintosh that was now sitting in the closest dutifully running Plex without a display.
+So, I decided to give Linux on the desktop a try. An aging 2012 Retina MacBook
+Pro that couldn't drive my new Dell P2715Q 4K monitor and the suspense of
+waiting for Skylake replacements reminded me to take a second look at the PC I
+put together a few years ago as Hackintosh that was now sitting in the closest
+dutifully running Plex without a display.
 
-The last time I tried Linux on the Desktop was when building the Hackintosh, actually. i remember days of fiddling with Xorg configs to try and get multiple monitors working and eventually giving up.
+The last time I tried Linux on the Desktop was when building the Hackintosh,
+actually. I remember days of fiddling with Xorg configs to try and get multiple
+monitors working and eventually giving up.
 
-I had Ubuntu 14.04 already installed on this machine, but as a server. A quick `sudo apt-get install ubuntu-gnome-desktop` and a reboot later and I was in a GUI at my temporary 24" LCDs native resolution. I'm not yet smart enough to know if the proper graphics drivers are running, but things seem smooth enough.
+I took the easy route at first and installed Ubuntu. Most everything worked out
+of the box but installed a ton of stuff I don't need. I was also intrigued by
+some alternative tiling window managers like [i3] and [bspwm] and `pacman`
+intrigued me so I decided to give it another try with Arch.
 
-There is (of course) a ton of [opportunities for customization](https://www.reddit.com/r/unixporn) but the out of the box performance is pretty nice.
+There is (of course) a ton of [opportunities for
+customization](https://www.reddit.com/r/unixporn) but the out of the box
+performance is pretty nice.
 
-There are, of course, some wrinkles and places that are no where near as polished as on OS X.
+There are, of course, some wrinkles and places that are no where near as
+polished as on OS X.
 
 ## What Works
 
-Most of my favorite Mac OS X apps I use every day are available and seem to run great on Linux so far:
+Most of my favorite Mac OS X apps I use every day are available and seem to run
+great on Linux so far:
 
 * [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-* [Atom](https://atom.io/)
 * [Docker](https://www.docker.com/) (This was actually what gave me the final push to try Linux. Docker works on OS X, but in a VM. And shared folder performance leaves much to be desired.)
 * [Slack](https://slack.com/downloads)
 * [Spotify](https://www.spotify.com/us/download/linux/)
