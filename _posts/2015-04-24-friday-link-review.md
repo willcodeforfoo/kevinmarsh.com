@@ -12,7 +12,7 @@ Is a bookmark still useful a month after I post it? You be the judge.
 * [Docker with Compose, Machine and Swarm, easy steps from localhost to cloud providers](http://flurdy.com/docs/docker/docker_compose_machine_swarm_cloud.html)
 * [Restaurants on TV, Diners Drive-Ins and Dives, Man vs Food, Best Thing I Ever Ate & more](http://www.tvfoodmaps.com/)
 * [Calca - The Text Editor that Loves Math](http://calca.io/) - Mind blown. Love the dimensional analysis and graphs.
-* [Play With Kubernetes Quickly Using Docker | zwischenzugs](https://zwischenzugs.wordpress.com/2015/04/06/play-with-kubernetes-quickly-using-docker/)
+* [Play With Kubernetes Quickly Using Dockers](https://zwischenzugs.wordpress.com/2015/04/06/play-with-kubernetes-quickly-using-docker/)
 * [StockSnap.io - Beautiful Free Stock Photos](https://stocksnap.io/)
 * [Pexels · Free high quality stock photos](http://www.pexels.com/)
 * [My React List - Medium](http://nzzl.me/1xULEW7)
@@ -36,7 +36,7 @@ Is a bookmark still useful a month after I post it? You be the judge.
 * [egghead.io - Learn professional JavaScript tools with Tutorial Videos & Training @eggheadio](https://egghead.io/)
 * [Theme Afterglow - A minimal dark Theme for Sublime Text 2 and 3](http://yabatadesign.github.io/afterglow-theme/)
 * [Panic Blog » Firewatch Demo Day at GDC](http://www.panic.com/blog/firewatch-demo-day-at-gdc/) - This looks like a neat game
-* [Disney's $1 Billion Bet on a Magical Wristband | WIRED](http://www.wired.com/2015/03/disney-magicband/) - "If you want to imagine how the world will look in just a few years, once our cell phones become the keepers of both our money and identity, skip Silicon Valley and book a ticket to Orlando. Go to Disney World."
+* [Disney's $1 Billion Bet on a Magical Wristband](http://www.wired.com/2015/03/disney-magicband/) - "If you want to imagine how the world will look in just a few years, once our cell phones become the keepers of both our money and identity, skip Silicon Valley and book a ticket to Orlando. Go to Disney World."
 * [OutlineEdit](http://outlineedit.com/)
 * [How we upgrade a live data center - Server Fault Blog](http://blog.serverfault.com/2015/03/05/how-we-upgrade-a-live-data-center/)
 * [OS X Screencast to animated GIF](https://gist.github.com/dergachev/4627207) - Convert videos to gifs
@@ -51,7 +51,7 @@ Is a bookmark still useful a month after I post it? You be the judge.
 * [Mechanical Keyboards Inc - The Ultimate Catalog and Guide.](http://mechanicalkeyboards.com/)
 * [Buy Cool, Stylish Laptop Backpacks and Utility Messenger Bag Online](http://www.cargo-works.com/)
 * [Everyday Carry - What are your EDC essentials?](http://everydaycarry.com/)
-* [SHAAAAAAAAAAAAA | Check your site for weak SHA-1 certificates.](https://shaaaaaaaaaaaaa.com/)
+* [SHAAAAAAAAAAAAA Check your site for weak SHA-1 certificates.](https://shaaaaaaaaaaaaa.com/)
 * [Qualys SSL Labs - Projects / SSL Server Test](https://www.ssllabs.com/ssltest/)
 * [Introducing Positron and Dark Matter — CartoDB](http://cartodb.com/basemaps/)
 * [GoAccess - Visual Web Log Analyzer](http://goaccess.io/)
@@ -77,8 +77,8 @@ Is a bookmark still useful a month after I post it? You be the judge.
 * [KeyPuller ~ Key caps News & Database](http://keypuller.com/)
 * [Why You Should Use a Mechanical Keyboard](http://robots.thoughtbot.com/why-you-should-use-a-mechanical-keyboard) - After using a Model M and Apple Extended II about 10 years ago, this re-sparked my interest into modern mechanical keyboard
 * [Deskthority wiki](http://deskthority.net/wiki/Main_Page)
-* [Writefull | A new way of writing with confidence](http://writefullapp.com/) - App to provide feedback on your writing via Google
-* [Fountain | A markup language for screenwriting.](http://fountain.io/) - Like Markdown, but for screenplays
+* [Writefull - A new way of writing with confidence](http://writefullapp.com/) - App to provide feedback on your writing via Google
+* [Fountain - A markup language for screenwriting.](http://fountain.io/) - Like Markdown, but for screenplays
 * [The best MultiMarkdown editor just got better!](http://multimarkdown.com/) - Another Markdown editor for Mac
 * [My favorite stuff from 2014, Part 1 - BrettTerpstra.com](http://brettterpstra.com/2015/01/05/my-favorite-apps-of-2014-part-1/) - ⌘Clicked a ton of these to check out
 * [How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
