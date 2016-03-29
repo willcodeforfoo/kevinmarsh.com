@@ -2,6 +2,7 @@
 layout: post
 title: "Friday Link Review"
 date: 2014-10-31 13:08:29
+Categories: Links
 ---
 
 *Every week I come across a lot of links. (Hopefully) every Friday I'll post the best for you. If you're interested, I [blogged about the workflow to create these posts](/2014/10/27/jekyll-blogging-workflow-link-posts.html). Enjoy!*

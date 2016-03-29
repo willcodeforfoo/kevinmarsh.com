@@ -2,6 +2,7 @@
 layout: post
 title: "Friday Link Review"
 date: 2015-04-24 17:58:22
+categories: Links
 ---
 
 Is a bookmark still useful a month after I post it? You be the judge.

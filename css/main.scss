@@ -211,23 +211,24 @@ a:focus {
 
 .post-category {
     margin: 0 0.1em;
-    padding: 0.3em 1em;
+    padding: 0.3em 0.8em;
     color: #fff;
     background: #999;
-    font-size: 80%;
+    font-size: 70%;
 }
-    .post-category-meta {
+    .post-category-links {
         background: #5aba59;
     }
     .post-category-notes {
         background: #4d85d1;
     }
-    .post-category-programming {
+    .post-category-til {
         background: #8156a7;
     }
-    .post-category-ruby {
-        background: #df2d4f;
-    }
+
+.more-posts-title .post-category {
+    font-size: 60%;
+}
 
 .post-images {
     margin: 1em 0;

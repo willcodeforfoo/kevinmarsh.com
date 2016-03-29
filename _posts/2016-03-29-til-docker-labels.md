@@ -2,9 +2,10 @@
 layout: post
 title: "TIL: Docker Labels"
 date: 2016-03-29 12:48:52
+categories: TIL
 ---
 
-Today I learned you can label containers with any key=value pair when creating them:
+Today I learned you can label Docker containers with any key=value pair when creating them:
 
     docker run --label com.vintageaerial.group="worker" -d vintageaerial/vintageaerial:latest bundle exec rake jobs:work
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Friday Link Review"
 date: 2014-10-24 12:14:37
+categories: Links
 ---
 
 *Every week I come across a lot of links. (Hopefully) every Friday I'll post the best for you. Enjoy!*

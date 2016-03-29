@@ -13,7 +13,7 @@ layout: default
       {% if page.categories.size > 0 %}
         in
         {% for cat in page.categories %}
-        <span class="post-category post-category-{{ cat }}">{{ cat | capitalize }}</span>
+        <span class="post-category post-category-{{ cat | downcase }}">{{ cat | upcase }}</span>
         {% endfor %}
       {% endif %}
     </p>

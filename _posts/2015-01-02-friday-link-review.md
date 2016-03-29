@@ -2,6 +2,7 @@
 layout: post
 title: "Friday Link Review"
 date: 2015-01-02 10:36:53
+categories: Links
 ---
 
 Whew! It's been awhile. Here's some links for the New Year!

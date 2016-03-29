@@ -14,7 +14,7 @@ layout: default
             {% if post.categories.size > 0 %}
               in
               {% for cat in post.categories %}
-              <span class="post-category post-category-{{ cat }}">{{ cat | capitalize }}</span>
+              <span class="post-category post-category-{{ cat | downcase }}">{{ cat }}</span>
               {% endfor %}
             {% endif %}
           </p>
@@ -35,7 +35,14 @@ layout: default
       {% if forloop.index >= 4 %}
         <tr>
           <td class="more-posts-title">
-            <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+            <div>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% if post.categories.size > 0 %}
+                {% for cat in post.categories %}
+                <span class="post-category post-category-{{ cat | downcase }}">{{ cat }}</span>
+                {% endfor %}
+              {% endif %}
+            </div>
             <div class="more-posts-date mobile">{{ post.date | date: "%Y-%m-%d" }}</div>
           </td>
           <td class="more-posts-date desktop">{{ post.date | date: "%Y-%m-%d" }}</td>
