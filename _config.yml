@@ -14,8 +14,8 @@ github_username: willcodeforfoo
 permalink: /:year/:month/:day/:title.html
 lsi: true
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
 redcarpet:
   extensions:
