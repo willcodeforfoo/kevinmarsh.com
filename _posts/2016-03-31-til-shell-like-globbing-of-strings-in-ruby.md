@@ -12,7 +12,7 @@ File.fnmatch("foo*", "food") #=> true
 File.fnmatch("foo*", "bar")  #=> false
 ```
 
-This seems a little more "secure" for user-specified patterns and is more performant than even simple regular expressions, not counting what weird things your (malicious) users may be able to do can do with expensive backtracking and whatnot.
+This seems a little more "secure" for user-specified patterns and is more performant than even simple regular expressions, not counting what weird things your (malicious) users may be able to do with expensive backtracking and whatnot.
 
 ```ruby
 require 'benchmark'
