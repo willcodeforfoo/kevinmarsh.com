@@ -5,7 +5,7 @@ date: 2016-03-31 08:20:41
 categories: TIL
 ---
 
-Today I learned you can perform shell-like globbing and matching any strings in Ruby with `File.fnmatch`.
+Today I learned you can perform shell-like globbing and matching of _any_ string in Ruby with `File.fnmatch` (not just filenames).
 
 ```ruby
 File.fnmatch("foo*", "food") #=> true
