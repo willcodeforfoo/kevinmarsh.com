@@ -3,7 +3,9 @@ layout: post
 title: "Jekyll Blogging Workflow: Post Script"
 ---
 
-Since Jekyll is file based, there isn't a "New Post" button, you just have to create a new file. Posts are usually just a simple Markdown document, but require a slugged filename and a bit of front matter to get started.
+Since Jekyll is file-based, there isn't a "New Post" button, you just create a new file. Posts are just a simple Markdown document, but require a slugged filename and a bit of front matter to get started.
+
+Of course anything that is done multiple times is worth automating, so I looked around for a script to quickly create a new post.
 
 I used [this script](https://gist.github.com/al3x/100171) as a starting point, but added some of my own tweaks. Here's some features:
 
@@ -20,7 +22,7 @@ Here's the script, which you'll need to tweak for your own environment:
 # modified from https://gist.github.com/al3x/100171
 
 unless ARGV[0]
-  puts 'Usage: post "the post title"'
+  puts 'Usage: post "My Great Post"'
   exit(-1)
 end
 
