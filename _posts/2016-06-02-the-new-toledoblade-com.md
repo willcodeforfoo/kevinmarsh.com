@@ -12,7 +12,7 @@ Instead I'd like to offer some constructive criticism for how The Blade specific
 
 ## Is it Local?
 
-![](http://cl.ly/gLyH/Screen%20Shot%202016-06-02%20at%208.04.02%20PM.png)
+![](http://cl.ly/gM0K/Screen%20Shot%202016-06-02%20at%208.04.02%20PM.jpg)
 
 The largest and first two stories (about 43% of the real estate in the "above the fold" homepage) is dedicated to the 2016 Presidential Election with stories sourced from the Associated Press, content also syndicated in hundreds of other media outlets. Only 30% is local content written by Blade staff.
 
@@ -30,7 +30,7 @@ Only a handful of The Blade's readers will see this view, but everyone feels the
 
 ## <del>Content</del> Advertising is King
 
-![](http://cl.ly/gMAy/Screen%20Shot%202016-06-02%20at%202.51.38%20PM.png)
+![](http://cl.ly/gLZZ/Screen%20Shot%202016-06-02%20at%202.51.38%20PM.jpg)
 
 Advertising isn't just the majority of bandwidth, it's often the majority of the page as well. Huge banner ads that obscure content are commonplace, and are constantly vying for your attention as you scroll down the page.
 
