@@ -59,7 +59,7 @@ Bonus tip: ⌘-Click files and files with line numbers to jump directly to that 
 
 ## Keyboard Shortcut
 
-Now that we have our task, we can setu a keyboard shortcut to run it easily. I setup ⌘R to run tests like so:
+Now that we have our task, we can setup a keyboard shortcut to run it easily. I setup ⌘R to run tests like so:
 
 ```js
 {
