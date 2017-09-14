@@ -9,6 +9,8 @@
 @import "fonts";
 @import "pygments";
 
+@import "resume";
+
 #social-links {
     @include optimizeLegibility;
     @include antialiased;
