@@ -7,7 +7,7 @@ keywords: >
   SongMeanings, web developer, xhtml, Rails, Ruby on Rails, Vintage Aerial,
   SFC, digital imaging, photography
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kevinmarsh.com"
+url: "https://kevinmarsh.com"
 twitter_username: willcodeforfoo
 github_username: willcodeforfoo
 permalink: /:year/:month/:day/:title.html
