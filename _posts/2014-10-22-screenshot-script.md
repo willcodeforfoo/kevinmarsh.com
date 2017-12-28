@@ -11,7 +11,7 @@ PATH=/usr/local/bin:$PATH
 DATE=$(date '+%Y%m%d-%H%M%S')
 FILE=~/Dropbox/Screenshots/${DATE}.png
 S3_BUCKET="assets.kevinmarsh.com"
-S3_URL_PREFIX="http://d1j4kwyjzsqmb8.cloudfront.net"
+S3_URL_PREFIX="https://d1j4kwyjzsqmb8.cloudfront.net"
 
 screencapture -i $FILE
 

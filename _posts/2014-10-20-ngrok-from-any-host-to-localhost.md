@@ -15,7 +15,7 @@ Here's how to get started:
 
 You should see something like this:
 
-![Screenshot](http://d1j4kwyjzsqmb8.cloudfront.net/20141020180215.png)
+![Screenshot](https://d1j4kwyjzsqmb8.cloudfront.net/20141020180215.png)
 
 And it's capable of so much more:
 
