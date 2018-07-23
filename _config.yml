@@ -9,7 +9,7 @@ keywords: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kevinmarsh.com"
 twitter_username: willcodeforfoo
-github_username: willcodeforfoo
+github_username: kmarsh
 permalink: /:year/:month/:day/:title.html
 
 markdown: kramdown
