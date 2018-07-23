@@ -140,6 +140,7 @@ a:focus {
 
 .content {
     padding: 2em 3em 0;
+    max-width: 960px;
 }
 
 .posts {
@@ -180,6 +181,23 @@ a:focus {
         background: none;
         border: none;
         border-radius: none;
+    }
+
+    table {
+        th {
+            text-align: left;
+        }
+        min-width: 400px;
+        td {
+            border-bottom: 1px solid #eee;
+        }
+    }
+
+    .swatch {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 4px;
     }
 
     .footnotes {
