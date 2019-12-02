@@ -4,7 +4,7 @@ title: "Any Color AnyBar"
 date: 2015-04-18 12:10:53
 ---
 
-![Screenshot](http://assets.kevinmarsh.com.s3.amazonaws.com/20150418-anybar-rainbow.gif)
+![Screenshot](https://s3.amazonaws.com/assets.kevinmarsh.com/20150418-anybar-rainbow.gif)
 
 I like [AnyBar](https://github.com/tonsky/AnyBar). It couldn't be simpler to put a little splash of color in your Mac's menubar for whatever reason you want. It comes with a bunch of pretty built in colors, but what if you want your own? You can add your own images to `~/.AnyBar` and it'll happily pick them when you specify them... but who wants to create an image every time they want to use a different color. I wanted to specify _any_ hex color and have it displayed.
 
