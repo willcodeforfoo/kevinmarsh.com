@@ -4,6 +4,7 @@
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
 
+    {{ if .Date }}
     <p class="post-meta">
       <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "January 2, 2006" }}</time>
 
@@ -15,6 +16,7 @@
       {{ end }}
 
     </p>
+    {{ end }}
   </header>
 
   <div class="post-description">
