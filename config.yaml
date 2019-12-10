@@ -1,0 +1,16 @@
+baseURL: https://kevinmarsh.com
+disablePathToLower: true
+languageCode: en-us
+title: Kevin Marsh
+permalinks:
+  posts: /:year/:month/:day/:slug/
+uglyurls: true
+markup:
+  highlight:
+    noClasses: false
+    tabWidth: 2
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: feed

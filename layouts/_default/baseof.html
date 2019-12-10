@@ -1,0 +1,32 @@
+{{ partial "head.html" . }}
+  <body>
+    <div class="pure-g-r" id="layout">
+      <div class="sidebar pure-u">
+        <header class="header">
+          <a href="/">
+            <h1 class="brand-title">Kevin Marsh</h1>
+          </a>
+          <div id="social-links">
+            <a href="https://twitter.com/willcodeforfoo">circletwitterbird</a>
+            <a href="https://github.com/kmarsh">circlegithub</a>
+            <a href="https://www.instagram.com/willcodeforfoo/">circleinstagram</a>
+            <a href="/feed.xml">circlerss</a>
+          </div>
+        </header>
+      </div>
+
+      <div class="pure-u-1">
+        <div class="content">
+
+          {{ block "main" . -}}{{- end }}
+
+          <div class="pure-g-r" id="footer">
+            <div class="pure-u-1">
+              Copyright &copy; 2004&ndash;2019 Kevin Marsh. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
