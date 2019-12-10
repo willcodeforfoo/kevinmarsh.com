@@ -4,8 +4,7 @@
 @import "pure";
 @import "variables";
 @import "fonts";
-@import "pygments";
-
+@import "syntax";
 @import "resume";
 
 #social-links {
@@ -49,10 +48,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
-}
-
-.highlight {
-    @import "pygments";
 }
 
 /* LAYOUT CSS */
