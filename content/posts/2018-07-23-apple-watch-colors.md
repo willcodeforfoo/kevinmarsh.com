@@ -8,48 +8,48 @@ While I wish Apple Watch faces supported more customization, I really like the a
 
 | | Color Name | Hex Value |
 |-|------------|-----------|
-|{::nomarkdown}<div class="swatch" style="background-color: #FFFFFF; border: 1px solid #eee;"> &nbsp;</div>{:/} | White | `#FFFFFF` |
-|{::nomarkdown}<div class="swatch" style="background-color: #D91D2A;"> &nbsp;</div>{:/} | Red | `#D91D2A` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FF6410;"> &nbsp;</div>{:/} | Orange | `#FF6410` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FC7450;"> &nbsp;</div>{:/} | Apricot | `#FC7450` |
-|{::nomarkdown}<div class="swatch" style="background-color: #E57E5E;"> &nbsp;</div>{:/} | Peach | `#E57E5E` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FF9500;"> &nbsp;</div>{:/} | Light Orange | `#FF9500` |
-|{::nomarkdown}<div class="swatch" style="background-color: #E9CC0B;"> &nbsp;</div>{:/} | Yellow | `#E9CC0B` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FFD25B;"> &nbsp;</div>{:/} | Pollen | `#FFD25B` |
-|{::nomarkdown}<div class="swatch" style="background-color: #F7EC00;"> &nbsp;</div>{:/} | Flash Light | `#F7EC00` |
-|{::nomarkdown}<div class="swatch" style="background-color: #E1F322;"> &nbsp;</div>{:/} | Flash | `#E1F322` |
-|{::nomarkdown}<div class="swatch" style="background-color: #8DE328;"> &nbsp;</div>{:/} | Green | `#8DE328` |
-|{::nomarkdown}<div class="swatch" style="background-color: #AEEC9D;"> &nbsp;</div>{:/} | Mint | `#AEEC9D` |
-|{::nomarkdown}<div class="swatch" style="background-color: #9ED5CC;"> &nbsp;</div>{:/} | Turquoise | `#9ED5CC` |
-|{::nomarkdown}<div class="swatch" style="background-color: #6AC5DD;"> &nbsp;</div>{:/} | Light Blue | `#6AC5DD` |
-|{::nomarkdown}<div class="swatch" style="background-color: #1AB5FC;"> &nbsp;</div>{:/} | Blue | `#1AB5FC` |
-|{::nomarkdown}<div class="swatch" style="background-color: #63AEEE;"> &nbsp;</div>{:/} | Royal Blue | `#63AEEE` |
-|{::nomarkdown}<div class="swatch" style="background-color: #C1D8FD;"> &nbsp;</div>{:/} | Lilac | `#C1D8FD` |
-|{::nomarkdown}<div class="swatch" style="background-color: #B3B8A7;"> &nbsp;</div>{:/} | Mist Blue | `#B3B8A7` |
-|{::nomarkdown}<div class="swatch" style="background-color: #879AA1;"> &nbsp;</div>{:/} | Azure | `#879AA1` |
-|{::nomarkdown}<div class="swatch" style="background-color: #477E9D;"> &nbsp;</div>{:/} | Blue Cobalt | `#477E9D` |
-|{::nomarkdown}<div class="swatch" style="background-color: #357393;"> &nbsp;</div>{:/} | Dark Teal | `#357393` |
-|{::nomarkdown}<div class="swatch" style="background-color: #5B83A8;"> &nbsp;</div>{:/} | Denim Blue | `#5B83A8` |
-|{::nomarkdown}<div class="swatch" style="background-color: #6084BF;"> &nbsp;</div>{:/} | Midnight Blue | `#6084BF` |
-|{::nomarkdown}<div class="swatch" style="background-color: #7388C7;"> &nbsp;</div>{:/} | Ocean Blue | `#7388C7` |
-|{::nomarkdown}<div class="swatch" style="background-color: #997CF7;"> &nbsp;</div>{:/} | Purple | `#997CF7` |
-|{::nomarkdown}<div class="swatch" style="background-color: #7157BE;"> &nbsp;</div>{:/} | Ultra Violet | `#7157BE` |
-|{::nomarkdown}<div class="swatch" style="background-color: #B29AA6;"> &nbsp;</div>{:/} | Lavender | `#B29AA6` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FFC2A9;"> &nbsp;</div>{:/} | Pink Sand | `#FFC2A9` |
-|{::nomarkdown}<div class="swatch" style="background-color: #F4B0AA;"> &nbsp;</div>{:/} | Light Pink | `#F4B0AA` |
-|{::nomarkdown}<div class="swatch" style="background-color: #F4ACA5;"> &nbsp;</div>{:/} | Vintage Rose | `#F4ACA5` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FF5964;"> &nbsp;</div>{:/} | Pink | `#FF5964` |
-|{::nomarkdown}<div class="swatch" style="background-color: #FF4E51;"> &nbsp;</div>{:/} | Electric Pink | `#FF4E51` |
-|{::nomarkdown}<div class="swatch" style="background-color: #B92946;"> &nbsp;</div>{:/} | Rose Red | `#B92946` |
-|{::nomarkdown}<div class="swatch" style="background-color: #C94544;"> &nbsp;</div>{:/} | Camellia | `#C94544` |
-|{::nomarkdown}<div class="swatch" style="background-color: #D3836A;"> &nbsp;</div>{:/} | Flamingo | `#D3836A` |
-|{::nomarkdown}<div class="swatch" style="background-color: #B08664;"> &nbsp;</div>{:/} | Walnut | `#B08664` |
-|{::nomarkdown}<div class="swatch" style="background-color: #AF9980;"> &nbsp;</div>{:/} | Stone | `#AF9980` |
-|{::nomarkdown}<div class="swatch" style="background-color: #D4B694;"> &nbsp;</div>{:/} | Antique White | `#D4B694` |
-|{::nomarkdown}<div class="swatch" style="background-color: #DDD1BB;"> &nbsp;</div>{:/} | Soft White | `#DDD1BB` |
-|{::nomarkdown}<div class="swatch" style="background-color: #AD9D8E;"> &nbsp;</div>{:/} | Pebble | `#AD9D8E` |
-|{::nomarkdown}<div class="swatch" style="background-color: #9B8E8C;"> &nbsp;</div>{:/} | Cocoa | `#9B8E8C` |
-|{::nomarkdown}<div class="swatch" style="background-color: #8C8C76;"> &nbsp;</div>{:/} | Dark Olive | `#8C8C76` |
+| {{< swatch "#FFFFFF" >}} | White | `#FFFFFF` |
+| {{< swatch "#D91D2A" >}} | Red | `#D91D2A` |
+| {{< swatch "#FF6410" >}} | Orange | `#FF6410` |
+| {{< swatch "#FC7450" >}} | Apricot | `#FC7450` |
+| {{< swatch "#E57E5E" >}} | Peach | `#E57E5E` |
+| {{< swatch "#FF9500" >}} | Light Orange | `#FF9500` |
+| {{< swatch "#E9CC0B" >}} | Yellow | `#E9CC0B` |
+| {{< swatch "#FFD25B" >}} | Pollen | `#FFD25B` |
+| {{< swatch "#F7EC00" >}} | Flash Light | `#F7EC00` |
+| {{< swatch "#E1F322" >}} | Flash | `#E1F322` |
+| {{< swatch "#8DE328" >}} | Green | `#8DE328` |
+| {{< swatch "#AEEC9D" >}} | Mint | `#AEEC9D` |
+| {{< swatch "#9ED5CC" >}} | Turquoise | `#9ED5CC` |
+| {{< swatch "#6AC5DD" >}} | Light Blue | `#6AC5DD` |
+| {{< swatch "#1AB5FC" >}} | Blue | `#1AB5FC` |
+| {{< swatch "#63AEEE" >}} | Royal Blue | `#63AEEE` |
+| {{< swatch "#C1D8FD" >}} | Lilac | `#C1D8FD` |
+| {{< swatch "#B3B8A7" >}} | Mist Blue | `#B3B8A7` |
+| {{< swatch "#879AA1" >}} | Azure | `#879AA1` |
+| {{< swatch "#477E9D" >}} | Blue Cobalt | `#477E9D` |
+| {{< swatch "#357393" >}} | Dark Teal | `#357393` |
+| {{< swatch "#5B83A8" >}} | Denim Blue | `#5B83A8` |
+| {{< swatch "#6084BF" >}} | Midnight Blue | `#6084BF` |
+| {{< swatch "#7388C7" >}} | Ocean Blue | `#7388C7` |
+| {{< swatch "#997CF7" >}} | Purple | `#997CF7` |
+| {{< swatch "#7157BE" >}} | Ultra Violet | `#7157BE` |
+| {{< swatch "#B29AA6" >}} | Lavender | `#B29AA6` |
+| {{< swatch "#FFC2A9" >}} | Pink Sand | `#FFC2A9` |
+| {{< swatch "#F4B0AA" >}} | Light Pink | `#F4B0AA` |
+| {{< swatch "#F4ACA5" >}} | Vintage Rose | `#F4ACA5` |
+| {{< swatch "#FF5964" >}} | Pink | `#FF5964` |
+| {{< swatch "#FF4E51" >}} | Electric Pink | `#FF4E51` |
+| {{< swatch "#B92946" >}} | Rose Red | `#B92946` |
+| {{< swatch "#C94544" >}} | Camellia | `#C94544` |
+| {{< swatch "#D3836A" >}} | Flamingo | `#D3836A` |
+| {{< swatch "#B08664" >}} | Walnut | `#B08664` |
+| {{< swatch "#AF9980" >}} | Stone | `#AF9980` |
+| {{< swatch "#D4B694" >}} | Antique White | `#D4B694` |
+| {{< swatch "#DDD1BB" >}} | Soft White | `#DDD1BB` |
+| {{< swatch "#AD9D8E" >}} | Pebble | `#AD9D8E` |
+| {{< swatch "#9B8E8C" >}} | Cocoa | `#9B8E8C` |
+| {{< swatch "#8C8C76" >}} | Dark Olive | `#8C8C76` |
 
 <img style="width: 320px; float: right; margin: 0 0 1em 1em;" src="https://d1j4kwyjzsqmb8.cloudfront.net/screenshots/2018/20180723-091000-thumb.jpg">
 
