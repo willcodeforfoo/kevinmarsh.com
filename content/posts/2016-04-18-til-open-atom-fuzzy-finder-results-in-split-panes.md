@@ -2,6 +2,7 @@
 categories: TIL
 date: "2016-04-18T12:43:04Z"
 title: 'TIL: Open Atom Fuzzy Finder Results in Split Panes'
+slug: til-open-atom-fuzzy-finder-results-in-split-panes
 ---
 
 One of the things I missed most from vim's [fuzzy](https://github.com/junegunn/fzf) [finder](https://github.com/kien/ctrlp.vim) plugins is the ability to open a result in a new split. So today I decided to take a few minutes today and look for a solution. Turns out I'm not the first to want this, and came across [this issue](https://github.com/atom/fuzzy-finder/issues/81) that has a nice solution.

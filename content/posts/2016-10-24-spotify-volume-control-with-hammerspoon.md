@@ -1,6 +1,7 @@
 ---
 date: "2016-10-24T12:59:21Z"
 title: Spotify Volume Control with Hammerspoon
+slug: spotify-volume-control-with-hammerspoon
 ---
 
 One of Spotify's best features is its ability for a client to become a remote to another version of itself running on a different device. A few months ago I started using the Mac app on my laptop to control the speakers connected to a PC in my office.

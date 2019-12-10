@@ -2,6 +2,7 @@
 categories: Links
 date: "2014-10-24T12:14:37Z"
 title: Friday Link Review
+slug: friday-link-review
 ---
 
 *Every week I come across a lot of links. (Hopefully) every Friday I'll post the best for you. Enjoy!*

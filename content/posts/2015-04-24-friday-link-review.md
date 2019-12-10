@@ -2,6 +2,7 @@
 categories: Links
 date: "2015-04-24T17:58:22Z"
 title: Friday Link Review
+slug: friday-link-review
 ---
 
 Is a bookmark still useful a month after I post it? You be the judge.

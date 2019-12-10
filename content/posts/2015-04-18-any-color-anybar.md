@@ -1,6 +1,7 @@
 ---
 date: "2015-04-18T12:10:53Z"
 title: Any Color AnyBar
+slug: any-color-anybar
 ---
 
 ![Screenshot](https://s3.amazonaws.com/assets.kevinmarsh.com/20150418-anybar-rainbow.gif)

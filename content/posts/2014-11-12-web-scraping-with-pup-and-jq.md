@@ -1,13 +1,14 @@
 ---
 date: "2014-11-12T11:10:39Z"
 title: Web Scraping with pup and jq
+slug: web-scraping-with-pup-and-jq
 ---
 
 I'm sure you've heard of [jq] by now, it's the best way to deal with JSON data on the command line. I previously wrote about a nifty way to [use jq to import JSON into Elasticsearch](/2014/10/23/using-jq-to-import-json-into-elasticsearch.html). It's great for filtering, transforming, and otherwise munging JSON data but 70% of the time I use it just to pretty print and syntax highlight JSON on the command line. Next time you have a big pile of JSON, try piping it to `jq '.'`.
 
 [pup] is the spiritual cousin of jq, except for HTML. It has become my go-to tool for munging (and yes, even just viewing: pipe some HTML to `pup -c`) HTML on the command line.
 
-I recently used the two together to scrape a local legal news site. 
+I recently used the two together to scrape a local legal news site.
 
 > **Disclaimer:** Be nice when you do this! And know that even if you're nice most "webmasters" wouldn't like you to do this. In this case it's public data (sort-of...)
 
@@ -37,7 +38,7 @@ We're actually not asking much from pup in this case, just using its ability to 
 cat out.json | jq '.[] | {"id": .children[0].children[0].href, "soldDate": .children[1].text, "seller": .children[2].text, "buyer": .children[3].text, "parcel": .children[4].text, "address": .children[5].children[0].children[0].text, "cityStateZip": .children[5].children[0].children[1].text, "county": .children[6].text, "saleAmount": .children[7].text|gsub("[\\$\\,]"; "")|tonumber}'
 ```
 
-jq does the bulk of the work here. I looked at the JSON generated from pup and sussed out the structure. It's a bit hard to read as one line, let's look at it formatted: 
+jq does the bulk of the work here. I looked at the JSON generated from pup and sussed out the structure. It's a bit hard to read as one line, let's look at it formatted:
 
 ```js
 {

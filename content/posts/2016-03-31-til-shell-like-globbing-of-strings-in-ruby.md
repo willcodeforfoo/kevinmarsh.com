@@ -2,6 +2,7 @@
 categories: TIL
 date: "2016-03-31T08:20:41Z"
 title: 'TIL: Shell-like Globbing of Strings in Ruby'
+slug: til-shell-like-globbing-of-strings-in-ruby
 ---
 
 Today I learned you can perform shell-like globbing and matching of _any_ string in Ruby with `File.fnmatch` (not just filenames).

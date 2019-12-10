@@ -1,6 +1,7 @@
 ---
 date: "2016-06-02T19:33:49Z"
 title: The New toledoblade.com
+slug: the-new-toledoblade-com
 ---
 
 [The Toledo Blade](http://www.toledoblade.com/) [just launched](http://www.toledoblade.com/business/2016/06/02/Blade-s-new-website-about-to-launch.html) a new version of their website. It's... not very good.

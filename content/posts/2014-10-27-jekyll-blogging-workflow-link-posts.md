@@ -1,6 +1,7 @@
 ---
 date: "2014-10-27T13:46:10Z"
 title: 'Jekyll Blogging Workflow: Link Posts'
+slug: jekyll-blogging-workflow-link-posts
 ---
 I wanted a way to write blog posts digesting the links I come across on a regular basis, much in the style of [Waxy.org/links](http://waxy.org/links/), Mike Gunderloy's [A Fresh Cup](http://afreshcup.com/home/category/double-shot), and numerous [others](http://chneukirchen.org/trivium/) that I follow.
 

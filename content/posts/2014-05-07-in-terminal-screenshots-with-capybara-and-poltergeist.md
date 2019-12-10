@@ -1,8 +1,7 @@
 ---
 date: "2014-05-07T15:07:56Z"
-redirect_from:
-- /blog/in-terminal-screenshots-with-capybara-and-poltergeist/
 title: In-Terminal Screenshots with iTerm2, Capybara, and Poltergeist
+slug: in-terminal-screenshots-with-capybara-and-poltergeist
 ---
 The [latest builds](http://www.iterm2.com/#/section/downloads) of iTerm2 support an [API for displaying images in the terminal](http://www.iterm2.com/images.html#/section/home). It can display any Base64-encoded PNG or JPEG image inline or as a download. Guess what, Poltergeist can render the current page as a... Base64-encoded PNG or JPEG! Let's combine the two with this little snippet of Ruby in our `spec_helper.rb` file:
 

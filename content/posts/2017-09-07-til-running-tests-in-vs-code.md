@@ -2,6 +2,7 @@
 categories: TIL
 date: "2017-09-07T15:52:30Z"
 title: 'TIL: Running Tests in VS Code'
+slug: til-running-tests-in-vs-code
 ---
 
 Since I've started using [Visual Studio Code](https://code.visualstudio.com/) (still seems weird to say that...) I've been looking for a way to easily run tests. Today I learned how you can easily [run tasks](https://code.visualstudio.com/docs/editor/tasks) in Code in the integrated terminal.

@@ -2,6 +2,7 @@
 categories: TIL
 date: "2016-04-19T10:21:41Z"
 title: 'TIL: Image Cells in Google Sheets'
+slug: til-image-cells-in-google-sheets
 ---
 
 Today I learned you can insert __image cells__ into a Google Sheets document. All you need is a URL to an image:

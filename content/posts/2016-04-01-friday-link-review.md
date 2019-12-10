@@ -2,6 +2,7 @@
 categories: Links
 date: "2016-04-01T11:55:50Z"
 title: Friday Link Review
+slug: friday-link-review
 ---
 
 Happy April Fools! (No tricks here.) There have been a lot of links since the [last post](/2015/04/24/friday-link-review.html), so I thought I'd just include the ones since the beginning of March:

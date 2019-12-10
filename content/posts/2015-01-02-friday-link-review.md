@@ -2,6 +2,7 @@
 categories: Links
 date: "2015-01-02T10:36:53Z"
 title: Friday Link Review
+slug: friday-link-review
 ---
 
 Whew! It's been awhile. Here's some links for the New Year!

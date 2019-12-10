@@ -2,6 +2,7 @@
 categories: TIL
 date: "2016-03-29T12:48:52Z"
 title: 'TIL: Docker Labels'
+slug: til-docker-labels
 ---
 
 Today I learned you can label Docker containers with any key=value pair when creating them:

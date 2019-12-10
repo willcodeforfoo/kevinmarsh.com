@@ -1,6 +1,7 @@
 ---
 date: "2014-11-05T10:50:52Z"
 title: Leverage Third Party Functionality with Open Formats
+slug: leverage-third-party-functionality-with-open-formats
 ---
 
 One thing I've started doing more of in my apps is leveraging third party functionality by exposing data in open formats instead of building out that functionalty in my app.

@@ -1,6 +1,7 @@
 ---
 date: "2014-10-22T11:37:43Z"
 title: Screenshot Script
+slug: screenshot-script
 ---
 
 I take a lot of screenshots, often wanting to share them with someone or post on this blog. I used to have a script that would automatically upload to Flickr, but I wanted to update it a bit to use S3. Here's what I came up with:

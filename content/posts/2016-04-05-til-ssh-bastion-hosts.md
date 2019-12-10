@@ -2,6 +2,7 @@
 categories: TIL
 date: "2016-04-05T17:18:10Z"
 title: 'TIL: SSH Bastion Hosts'
+slug: til-ssh-bastion-hosts
 ---
 
 Today I finally learned how to setup "bastion" or gateway hosts to enable one-line simple SSHing to machines behind a firewall.

@@ -1,6 +1,7 @@
 ---
 date: "2014-10-23T14:00:00Z"
 title: Using jq to Import JSON into Elasticsearch
+slug: using-jq-to-import-json-into-elasticsearch
 ---
 [Elasticsearch](http://www.elasticsearch.org/) works really well with JSON. However, you can't just ship plain 'ol JSON, you have to use the [bulk API](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-bulk.html#docs-bulk). You *could* write a script in your favorite program language to do this, but you can use the incredibly-awesome [jq](http://stedolan.github.io/jq/) tool piped to curl on the command line.
 

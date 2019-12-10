@@ -1,6 +1,7 @@
 ---
 date: "2018-07-23T08:30:44Z"
 title: Apple Watch Colors
+slug: apple-watch-colors
 ---
 
 While I wish Apple Watch faces supported more customization, I really like the ability to change the colors. My standard is the Modular face with a color I select each morning that matches my shirt color. Really. To make that a little easier (and mostly because I was curious and couldn't find this list anywhere) I collated the Apple Watch face colors and created the reference below:
