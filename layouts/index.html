@@ -2,8 +2,28 @@
   <div class="posts">
     {{ $posts := where site.RegularPages "Type" "in" "posts" }}
 
-    {{ range first 5 $posts.ByDate.Reverse -}}
+    {{ range first 3 $posts.ByDate.Reverse -}}
       {{ partial "post.html" . }}
     {{- end }}
+  </div>
+
+  <div class="more-posts">
+    <h2>More Posts</h2>
+    <table>
+      {{ range after 3 $posts.ByDate.Reverse -}}
+        <tr>
+          <td class="more-posts-title">
+            <div>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              {{ range .Params.categories }}
+                <span class="post-category post-category-{{ lower . }}">{{ . }}</span>
+              {{ end }}
+            </div>
+            <div class="more-posts-date mobile">{{ .Date.Format "2006-01-02" }}</div>
+          </td>
+          <td class="more-posts-date desktop">{{ .Date.Format "2006-01-02" }}</td>
+        </tr>
+      {{- end }}
+    </table>
   </div>
 {{- end }}

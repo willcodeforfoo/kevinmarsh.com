@@ -1,5 +1,6 @@
 ---
-categories: TIL
+categories:
+  - TIL
 date: "2016-04-18T12:43:04Z"
 title: 'TIL: Open Atom Fuzzy Finder Results in Split Panes'
 slug: til-open-atom-fuzzy-finder-results-in-split-panes

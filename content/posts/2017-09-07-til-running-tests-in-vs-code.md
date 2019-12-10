@@ -1,5 +1,6 @@
 ---
-categories: TIL
+categories:
+  - TIL
 date: "2017-09-07T15:52:30Z"
 title: 'TIL: Running Tests in VS Code'
 slug: til-running-tests-in-vs-code

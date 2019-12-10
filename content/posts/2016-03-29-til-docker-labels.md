@@ -1,5 +1,6 @@
 ---
-categories: TIL
+categories:
+  - TIL
 date: "2016-03-29T12:48:52Z"
 title: 'TIL: Docker Labels'
 slug: til-docker-labels

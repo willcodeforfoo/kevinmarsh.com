@@ -1,5 +1,6 @@
 ---
-categories: TIL
+categories:
+  - TIL
 date: "2016-04-19T10:21:41Z"
 title: 'TIL: Image Cells in Google Sheets'
 slug: til-image-cells-in-google-sheets

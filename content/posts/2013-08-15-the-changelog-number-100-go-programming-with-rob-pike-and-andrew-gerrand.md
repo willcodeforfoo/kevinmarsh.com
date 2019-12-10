@@ -1,5 +1,6 @@
 ---
-categories: Notes
+categories:
+  - Notes
 date: "2013-08-15T00:00:00Z"
 title: 'The Changelog #100: Go programming with Rob Pike and Andrew Gerrand'
 slug: the-changelog-number-100-go-programming-with-rob-pike-and-andrew-gerrand

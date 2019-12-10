@@ -1,5 +1,6 @@
 ---
-categories: TIL
+categories:
+  - TIL
 date: "2016-04-05T17:18:10Z"
 title: 'TIL: SSH Bastion Hosts'
 slug: til-ssh-bastion-hosts

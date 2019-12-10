@@ -1,5 +1,6 @@
 ---
-categories: Links
+categories:
+  - Links
 date: "2016-04-01T11:55:50Z"
 title: Friday Link Review
 slug: friday-link-review
