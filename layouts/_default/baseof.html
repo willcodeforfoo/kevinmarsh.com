@@ -1,0 +1,37 @@
+{{ partial "head.html" . }}
+  <body>
+    <div class="pure-g-r" id="layout">
+      <div class="sidebar pure-u">
+        <header class="header">
+          <a href="/">
+            <h1 class="brand-title">Kevin Marsh</h1>
+            <h2 class="brand-tagline">A Rubyist reflects</h2>
+          </a>
+          <div id="social-links">
+            <a href="https://twitter.com/willcodeforfoo">circletwitterbird</a>
+            <a href="https://github.com/kmarsh">circlegithub</a>
+            <a href="https://www.instagram.com/willcodeforfoo/">circleinstagram</a>
+          </div>
+        </header>
+      </div>
+
+      <div class="pure-u-1">
+        <div class="content">
+
+          {{ block "main" . -}}{{- end }}
+
+          <div class="pure-g-r" id="footer">
+            <div class="pure-u-1">
+              Copyright &copy; 2004&ndash;2019 Kevin Marsh. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/crystal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lua.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+  </html>

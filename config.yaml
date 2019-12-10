@@ -1,0 +1,7 @@
+baseURL: https://kevinmarsh.com
+disablePathToLower: true
+languageCode: en-us
+title: Kevin Marsh
+permalinks:
+  posts: /:year/:month/:day/:slug/
+uglyurls: true
