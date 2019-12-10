@@ -9,3 +9,8 @@ markup:
   highlight:
     noClasses: false
     tabWidth: 2
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: feed
