@@ -78,3 +78,47 @@
 
   </div>
 </body>
+
+<script>
+  // Adapted from https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo/
+  function addCopyButtons(clipboard) {
+    var copyText = '<div class="flex flex-row items-center text-gray-500 text-xs"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg><div>Copy</div></div>'
+    var copiedText = '<div class="flex flex-row items-center text-gray-900 text-xs"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg><div>Copied!</div></div>'
+    var errorText = '<div class="text-xs text-red-500">Error!</div>';
+
+    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+      var button = document.createElement('button');
+      button.className = 'font-sans text-sm mt-1 mb-3 ml-auto mr-0 block';
+      button.type = 'button';
+      button.innerHTML = copyText;
+
+      button.addEventListener('click', function () {
+        clipboard.writeText(codeBlock.innerText).then(function () {
+          /* Chrome doesn't seem to blur automatically,
+             leaving the button in a focused state. */
+          button.blur();
+
+          button.innerHTML = copiedText;
+
+          setTimeout(function () {
+            button.innerHTML = copyText;
+          }, 2000);
+        }, function (error) {
+          button.innerHTML = errorText;
+        });
+      });
+
+      var pre = codeBlock.parentNode;
+      if (pre.parentNode.classList.contains('highlight')) {
+        var highlight = pre.parentNode;
+        highlight.parentNode.insertBefore(button, highlight.nextSibling);
+      } else {
+        pre.parentNode.insertBefore(button, pre.nextSibling);
+      }
+    });
+  }
+
+  if (navigator && navigator.clipboard) {
+    addCopyButtons(navigator.clipboard);
+  }
+</script>
