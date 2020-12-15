@@ -82,12 +82,13 @@
 }
 
 /* Code */
-.markdown code {
-  @apply font-mono bg-blue-light bg-opacity-50 p-1;
+.markdown > code, .markdown > p > code {
+  @apply font-mono bg-gray-100 bg-opacity-50 p-1 px-2;
 }
 
 .markdown pre {
-  @apply font-mono bg-none p-1;
+  @apply font-mono text-sm bg-blue-dark p-2 -m-2 mb-4;
+  color: #eff1f5;
 }
 
 .markdown .highlight pre code {
