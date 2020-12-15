@@ -87,7 +87,7 @@
 }
 
 .markdown pre {
-  @apply font-mono text-sm bg-blue-dark p-2 -m-2 mb-4;
+  @apply font-mono text-sm bg-blue-dark p-2 -m-2 mt-4 mb-4;
   color: #eff1f5;
 }
 

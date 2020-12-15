@@ -1,5 +1,5 @@
 {{ define "main" -}}
-  <div class="posts">
+  <div>
     {{ $posts := where site.RegularPages "Type" "in" "posts" }}
 
     {{ range first 3 $posts.ByDate.Reverse -}}
@@ -7,21 +7,17 @@
     {{- end }}
   </div>
 
-  <div class="more-posts">
-    <h2>More Posts</h2>
+  <div class="p-4">
+    <div class="text-sm mb-2">Older Posts</div>
     <table>
       {{ range after 3 $posts.ByDate.Reverse -}}
         <tr>
-          <td class="more-posts-title">
+          <td>
             <div>
               <a href="{{ .Permalink }}">{{ .Title }}</a>
-              {{ range .Params.categories }}
-                <span class="post-category post-category-{{ lower . }}">{{ . }}</span>
-              {{ end }}
             </div>
-            <div class="more-posts-date mobile">{{ .Date.Format "2006-01-02" }}</div>
           </td>
-          <td class="more-posts-date desktop">{{ .Date.Format "2006-01-02" }}</td>
+          <td>{{ .Date.Format "2006-01-02" }}</td>
         </tr>
       {{- end }}
     </table>
