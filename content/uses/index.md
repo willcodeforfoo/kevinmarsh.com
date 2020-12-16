@@ -14,9 +14,11 @@ I use a Apple Magic Mouse 2, which I just upgraded to from an Magic Mouse that I
 
 # Development
 
+![](https://icdn.remarkedusercontent.com/s/q:90/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvV2VzbWl5bkEvU2NyZWVuJTIwU2hvdCUyMDIwMjAtMTItMTYlMjBhdCUyMDMuMTQuNTQlMjBQTS5wbmc.jpg)
+
 I've used Visual Studio Code for all development since around 2017. Previously I used Sublime Text and TextMate heavily, and have given vim more honest tries than I can count.
 
-I don't use much of its advanced features, but have made a commitment to use the built in terminal and git integration more and it's been pretty good!
+I don't use many of its advanced features, but have made a commitment to use the built in terminal and git integration more and it's been pretty good!
 
 I'm a sucker for the [Ocean Dark theme](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended) and I've made variations for Terminal.app as well. I've taken queues from the colors for this site as well.
 
@@ -27,6 +29,12 @@ I use the Source Code Pro font.
 This site is a static one, built with [Hugo](https://gohugo.io) and [Tailwind CSS](https://tailwindcss.com). Hosted at Netlify.
 
 # Office
+
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/q:80/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3Mvd29zNmk4UE0vSU1HXzA1NjguanBn.jpg)
+
+In the Summer of 2020 I remodeled our small detached garage into an office I call The Shedquarters. It's around 200 sq. ft.
+
+I use a Herman Miller Mirra chair that I bought in 2010 and has served me well for hours a day ever since, they've even sent someone to my home to fix a cracked back free of charge!
 
 # Mobile
 

@@ -11,6 +11,11 @@
   @apply font-noto;
 }
 
+/* .markdown img[src*="#full"] {
+  margin-left: -2.5em;
+  max-width: 48em;
+} */
+
 /* Headers */
 .markdown h1,
 .markdown h2 {
