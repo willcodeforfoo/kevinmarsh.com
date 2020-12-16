@@ -68,13 +68,19 @@
         </div>
       </header>
 
-      <div class="mb-10">
+      <div>
 
         {{ block "main" . -}}{{- end }}
 
       </div>
 
     </div>
+
+    <footer class="text-center mb-5 text-white text-opacity-30 text-sm">
+      Copyright &copy; 2003&ndash;{{ dateFormat "2006" now }} Kevin Marsh.
+      <a href="https://github.com/kmarsh/kevinmarsh.com" class="underline">Source</a>
+    </footer>
+
 
   </div>
 </body>

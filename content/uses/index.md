@@ -42,7 +42,7 @@ I try and scan every piece of paper that comes my way with a [Fuji ScanSnap S150
 
 # Phone
 
-I use an iPhone Pro 11. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less as time goes on: maybe the differences are becoming less and less noticible or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
+I use an iPhone 11 Pro in Space Gray. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticible or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
 
 ## Apps
 
@@ -70,12 +70,14 @@ Some of the apps I use on a regular basis.
 
 # Photography
 
-Back when I had more free time I loved to shoot with a _real_ camera. You know, setting up flashes, changing lenses, and so on. But nowadays most of my photos are taken with an iPhone. I upgraded a few times but I currently have a [Canon T2i](https://shop.usa.canon.com/shop/en/catalog/eos-rebel-t2i-body) with a bunch of lenses.
+Back when I had more free time I loved to shoot with a _real_ camera. You know, setting up flashes, changing lenses, and so on. I upgraded a few times but I currently have a [Canon T2i](https://shop.usa.canon.com/shop/en/catalog/eos-rebel-t2i-body) with a bunch of lenses.
+
+But nowadays most of my photos are taken with an iPhone.
 
 I grew up [posting to Flickr](https://www.flickr.com/photos/kevinmarsh/) for the world to see, but now most photos are private and stored in Apple and Google Photos.
 
 # Blog (Colophon)
 
-This site is a static one, built with [Hugo](https://gohugo.io) and [Tailwind CSS](https://tailwindcss.com). Hosted at Netlify.
+This site is a static one, built with [Hugo](https://gohugo.io) and [Tailwind CSS](https://tailwindcss.com). Hosted at [Netlify](https://www.netlify.com). Source on [GitHub](https://github.com/kmarsh/kevinmarsh.com).
 
-It uses Noto Serif and Source Code Pro via Google Fonts.
+It is set in [Noto Serif](https://fonts.google.com/specimen/Noto+Serif?query=noto+serif) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro) via Google Fonts.

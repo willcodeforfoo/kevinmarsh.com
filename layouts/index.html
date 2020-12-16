@@ -7,8 +7,8 @@
     {{- end }}
   </div>
 
-  <div class="p-4">
-    <div class="text-sm mb-2">Older Posts</div>
+  <div class="p-4 text-white text-opacity-50">
+    <div class="text-lg mb-2 uppercase font-bold tracking-wider">Older Posts</div>
     <table>
       {{ range after 3 $posts.ByDate.Reverse -}}
         <tr>
