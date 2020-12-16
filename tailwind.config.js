@@ -14,10 +14,10 @@ module.exports = {
           dark: '#313743'
         },
       },
-    },
-    fontFamily: {
-      noto: ['Noto Serif', 'serif'],
-      mono: ['Source Code Pro', 'monospace'],
+      fontFamily: {
+        noto: ['Noto Serif', 'serif'],
+        mono: ['Source Code Pro', 'monospace'],
+      },
     },
   },
   variants: {
