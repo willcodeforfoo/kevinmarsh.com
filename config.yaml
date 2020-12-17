@@ -9,6 +9,9 @@ markup:
   highlight:
     noClasses: false
     tabWidth: 2
+  goldmark:
+    renderer:
+      unsafe: true
 
 outputFormats:
   RSS:

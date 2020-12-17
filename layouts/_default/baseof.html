@@ -1,32 +1,139 @@
 {{ partial "head.html" . }}
-  <body>
-    <div class="pure-g-r" id="layout">
-      <div class="sidebar pure-u">
-        <header class="header">
-          <a href="/">
-            <h1 class="brand-title">Kevin Marsh</h1>
-          </a>
-          <div id="social-links">
-            <a href="https://twitter.com/willcodeforfoo">circletwitterbird</a>
-            <a href="https://github.com/kmarsh">circlegithub</a>
-            <a href="https://www.instagram.com/willcodeforfoo/">circleinstagram</a>
-            <a href="/feed.xml">circlerss</a>
+
+<body class="bg-blue-dark">
+  <div class="container mx-auto">
+
+    <div class="flex flex-col lg:flex-row">
+
+      <header class="w-full bg-blue-dark md:p-5 lg:max-w-sm">
+        <a href="/">
+          <svg class="w-56 mx-auto fill-current text-blue-light transform translate-x-3" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 154.216 74.195" title="Kevin Marsh" alt="Kevin Marsh">
+            <clipPath id="a">
+              <path transform="matrix(1 0 0 -1 -99.903 668.707)" d="M0 0h612v792H0z" />
+            </clipPath>
+            <g clip-path="url(#a)">
+              <clipPath id="b">
+                <path transform="matrix(1 0 0 -1 -99.903 668.707)" d="M106 603.003h141.945v53.979H106z" />
+              </clipPath>
+              <g clip-path="url(#b)">
+                <path
+                  d="M79.296 49.538c0-.48-.249-.719-.746-.719h-.361c-1.056.734-2.043 1.101-2.962 1.101 0-.494-.249-.741-.746-.741-2.412.733-4.627 1.22-6.646 1.46 0 .523-.121 1.87-.362 4.04.588 4.896 2.185 7.344 4.793 7.344h.745c6.48-.66 12.886-3.107 19.216-7.343 1.733-1.587 2.6-2.567 2.6-2.941-2.095-.48-3.331-.719-3.708-.719l-10.715 2.56h-1.492c-.483 0-.723-.367-.723-1.1 0-.644 2.953-2.844 8.861-6.602l8.5-6.983c-5.35 3.353-9.781 6.415-13.293 9.184 0 .539-.986 1.025-2.96 1.46M53.05 33.393h.746c.738.24 1.108.973 1.108 2.2 0 .494-.249.741-.746.741-.739-.254-1.108-.995-1.108-2.223zM7.95 52.48c.151 1.227.89 1.84 2.216 1.84h1.47c2.44 0 8.236-3.06 17.384-9.183v-.36c0-.987-2.962-1.6-8.885-1.84-4.868 0-8.311 1.834-10.33 5.501-.935.898-1.553 2.245-1.854 4.042m55.453-40.754h.362c.497.075.746.322.746.74 0 2.8-6.044 9.896-18.13 21.287-3.18 2.919-5.886 5-8.116 6.242l.361 1.842c-1.718 2.47-2.577 4.55-2.577 6.242h.362c.95-.015 2.796-2.096 5.539-6.242h.745c.498.075.747.322.747.74v.719c-1.478 1.827-2.216 3.294-2.216 4.4v.742c.557 0 2.404-1.714 5.539-5.142h.746c.482.075.723.322.723.741l-1.107 4.042h.384c.331-.03 1.808-1.497 4.43-4.401h1.108v3.66h.362c.407 0 1.514-1.22 3.323-3.66h.385c1.13 1.467 1.868 2.2 2.215 2.2 4.43-13.158 6.895-19.894 7.392-20.208h1.108c.497 1.571.746 2.432.746 2.582 0 1.257-.618 6.032-1.854 14.325v.36h.362c.09-.584 4.897-6.58 14.423-17.986 2.863-5.15 4.838-7.724 5.923-7.724.466.255.836.382 1.107.382v.36c0 1.122-2.833 4.916-8.5 11.383a198.833 198.833 0 00-8.522 12.485v.74l.746-.381h1.107v1.1c-2.908 1.841-4.385 3.556-4.43 5.142.482.254.85.381 1.107.381 2.02 0 4.363-1.594 7.03-4.782h1.109l.36 1.46c-.33.014-.82.628-1.468 1.84v.36l5.538-2.92.746.36c14.65-9.79 22.78-14.685 24.393-14.685h.745v.741c-12.75 9.955-21.747 16.803-26.991 20.546 10.368-4.162 22.817-7.215 37.345-9.162v.36c3.315-.734 8.613-1.1 15.892-1.1.256 0 .625-.128 1.108-.382l2.215.382h3.685c4.19.149 6.285.883 6.285 2.2 0 .344-.37.711-1.108 1.1h-.723c0-.973-3.331-1.586-9.992-1.841-.98.255-1.84.382-2.577.382-12.238 0-25.425 1.833-39.561 5.5v.742c1.477 0 2.215.853 2.215 2.56-2.758 3.532-6.7 6.346-11.823 8.442-5.456 1.96-9.405 2.942-11.846 2.942-3.964 0-6.3-3.062-7.008-9.184v-.36c.317-4.236 1.545-8.15 3.685-11.743v-.381h-.723c-1.146 2.694-2.502 4.041-4.07 4.041 0-.254-.128-.62-.384-1.1 1.477-7.095 2.215-11.376 2.215-12.844v-1.482h-.36c0 3.908-1.847 10.644-5.54 20.21-.15 1.212-.89 1.818-2.215 1.818l-.384-1.46c.497-1.81.746-3.038.746-3.682l-1.854-1.1c-2.17 1.96-3.527 2.941-4.069 2.941-.648-.075-1.259-.689-1.831-1.841-2.186 1.721-3.67 2.582-4.454 2.582-.738 0-1.107-.98-1.107-2.941-2.306 2.2-4.032 3.3-5.177 3.3-.483-.733-.724-1.586-.724-2.56-1.642 1.468-2.879 2.201-3.707 2.201-.98-.24-1.47-.973-1.47-2.2l.363-2.2v-.382h-.362c-1.236 2.275-1.975 5.336-2.216 9.183 1.01 6.362 3.595 9.543 7.754 9.543 4.386-.853 8.824-3.42 13.315-7.702v-.359l-.746-.382c-1.507 0-3.85.494-7.03 1.482v-.382c0-.703 2.343-1.683 7.03-2.94.15 0 1.017.493 2.6 1.481v1.46c-.407 0-1.763 1.347-4.07 4.041-4.777 3.188-8.356 4.783-10.737 4.783h-2.215c-3.994 0-6.58-3.675-7.754-11.025.24-1.347.361-2.328.361-2.941h-.723c0 1.467-.867 2.2-2.6 2.2-.241-.419-.362-.906-.362-1.46v-.74c1.598-1.348 2.585-3.062 2.962-5.143-9.902 6.377-16.315 9.566-19.238 9.566-2.954 0-4.43-1.108-4.43-3.323 0-2.71 2.342-6.01 7.03-9.903 2.501-1.227 4.468-1.84 5.9-1.84h1.854c5.274 0 8.605.86 9.992 2.582 4.204-2.5 7.655-6.542 10.353-12.125a73.233 73.233 0 004.431-9.184h.723c.498 0 .747.367.747 1.1-2.14 5.36-4.484 9.768-7.031 13.225v.36c12.735-11.197 20.007-18.786 21.815-22.769 0-.478-.37-.718-1.108-.718v-.382c.407-.973 1.273-1.459 2.6-1.459" />
+              </g>
+            </g>
+          </svg>
+        </a>
+
+        <p class="text-sm text-white opacity-80 px-4 mb-1 md:mb-6 text-center">
+          Kevin Marsh is a web developer from Toledo, OH with a focus on simplicity and usability, an eye for design,
+          and
+          insatiable curiosity.
+        </p>
+
+        <div class="flex space-x-6 mb-2 md:mb-6 justify-center">
+          <div><a href="/" class="text-white hover:opacity-80">Blog</a></div>
+          <div><a href="/work" class="text-white hover:opacity-80">Work</a></div>
+          <div><a href="/uses" class="text-white hover:opacity-80">Uses</a></div>
+          <div><a href="/feed.xml" class="text-white hover:opacity-80">RSS</a></div>
+        </div>
+
+        <div class="flex space-x-6 justify-center mb-4">
+          <div>
+            <a href="https://twitter.com/willcodeforfoo">
+              <svg class="fill-current opacity-40 text-white w-6 hover:opacity-90" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+              </svg>
+            </a>
           </div>
-        </header>
-      </div>
-
-      <div class="pure-u-1">
-        <div class="content">
-
-          {{ block "main" . -}}{{- end }}
-
-          <div class="pure-g-r" id="footer">
-            <div class="pure-u-1">
-              Copyright &copy; 2004&ndash;2019 Kevin Marsh. All rights reserved.
-            </div>
+          <div>
+            <a href="https://github.com/kmarsh">
+              <svg class="fill-current opacity-40 text-white w-6 hover:opacity-90" role="img" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a href="https://instagram.com/willcodeforfoo">
+              <svg class="fill-current opacity-40 text-white w-6 hover:opacity-90" role="img" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+              </svg>
+            </a>
           </div>
         </div>
+      </header>
+
+      <div>
+
+        {{ block "main" . -}}{{- end }}
+
       </div>
+
     </div>
-  </body>
-  </html>
+
+    <footer class="text-center mb-5 text-white text-opacity-30 text-sm">
+      Copyright &copy; 2003&ndash;{{ dateFormat "2006" now }} Kevin Marsh.
+      <a href="https://github.com/kmarsh/kevinmarsh.com" class="underline">Source</a>
+    </footer>
+
+
+  </div>
+</body>
+
+<script>
+  // Adapted from https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo/
+  function addCopyButtons(clipboard) {
+    var copyText = '<div class="flex flex-row items-center text-gray-500 text-xs"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg><div>Copy</div></div>'
+    var copiedText = '<div class="flex flex-row items-center text-gray-900 text-xs"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg><div>Copied!</div></div>'
+    var errorText = '<div class="text-xs text-red-500">Error!</div>';
+
+    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+      var button = document.createElement('button');
+      button.className = 'font-sans text-sm mt-1 mb-3 ml-auto mr-0 block';
+      button.type = 'button';
+      button.innerHTML = copyText;
+
+      button.addEventListener('click', function () {
+        clipboard.writeText(codeBlock.innerText).then(function () {
+          /* Chrome doesn't seem to blur automatically,
+             leaving the button in a focused state. */
+          button.blur();
+
+          button.innerHTML = copiedText;
+
+          setTimeout(function () {
+            button.innerHTML = copyText;
+          }, 2000);
+        }, function (error) {
+          button.innerHTML = errorText;
+        });
+      });
+
+      var pre = codeBlock.parentNode;
+      if (pre.parentNode.classList.contains('highlight')) {
+        var highlight = pre.parentNode;
+        highlight.parentNode.insertBefore(button, highlight.nextSibling);
+      } else {
+        pre.parentNode.insertBefore(button, pre.nextSibling);
+      }
+    });
+  }
+
+  if (navigator && navigator.clipboard) {
+    addCopyButtons(navigator.clipboard);
+  } else {
+    var script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/3.0.1/promise/clipboard-polyfill.promise.min.js';
+    script.crossOrigin = 'anonymous';
+    script.onload = function () {
+      addCopyButtons(clipboard);
+    };
+
+    document.body.appendChild(script);
+  }
+</script>

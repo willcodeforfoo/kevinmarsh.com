@@ -12,7 +12,7 @@ Instead I'd like to offer some constructive criticism for how The Blade specific
 
 ## Is it Local?
 
-![](https://cl.ly/gM0K/Screen%20Shot%202016-06-02%20at%208.04.02%20PM.jpg)
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvNmxzRGkwZ24vU2NyZWVuJTIwU2hvdCUyMDIwMTYtMDYtMDIlMjBhdCUyMDguMDQuMDIlMjBQTS5qcGc.png)
 
 The largest and first two stories (about 43% of the real estate in the "above the fold" homepage) is dedicated to the 2016 Presidential Election with stories sourced from the Associated Press, content also syndicated in hundreds of other media outlets. Only 30% is local content written by Blade staff.
 
@@ -22,7 +22,7 @@ I think there is an opportunity to geotag articles by location and use that data
 
 ## Poor Implementation
 
-![](https://cl.ly/gM78/Screen%20Shot%202016-06-02%20at%202.51.58%20PM.png)
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3Mva0dzYWluZUwvU2NyZWVuJTIwU2hvdCUyMDIwMTYtMDYtMDIlMjBhdCUyMDIuNTEuNTglMjBQTS5wbmc.png)
 
 It took 688 HTTP(S) requests over a whopping 18 seconds to deliver a single article (over [Buckeye Broadband](http://www.buckeyecablesystem.com/index.html)!) Only a tiny fraction of this bandwidth was for the content I requested, the rest is in service of advertising and tracking. (This isn't just a problem with The Blade, but practically every news organization and website that depends on advertising revenue.)
 
@@ -30,7 +30,7 @@ Only a handful of The Blade's readers will see this view, but everyone feels the
 
 ## <del>Content</del> Advertising is King
 
-![](https://cl.ly/gLZZ/Screen%20Shot%202016-06-02%20at%202.51.38%20PM.jpg)
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZ25zOWlKYlYvU2NyZWVuJTIwU2hvdCUyMDIwMTYtMDYtMDIlMjBhdCUyMDIuNTEuMzglMjBQTS5wbmc.png)
 
 Advertising isn't just the majority of bandwidth, it's often the majority of the page as well. Huge banner ads that obscure content are commonplace, and are constantly vying for your attention as you scroll down the page.
 
