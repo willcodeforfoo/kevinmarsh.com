@@ -7,17 +7,17 @@
     {{- end }}
   </div>
 
-  <div class="p-4 text-white text-opacity-50">
-    <div class="text-lg mb-2 uppercase font-bold tracking-wider">Older Posts</div>
+  <div class="p-4">
+    <div class="text-lg mb-2 text-white text-opacity-40 uppercase font-bold tracking-wider">Older Posts</div>
     <table>
       {{ range after 3 $posts.ByDate.Reverse -}}
         <tr>
           <td>
             <div>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              <a class="text-white text-opacity-60 hover:text-opacity-80" href="{{ .Permalink }}">{{ .Title }}</a>
             </div>
           </td>
-          <td>{{ .Date.Format "2006-01-02" }}</td>
+          <td class="text-white text-opacity-40">{{ .Date.Format "2006-01-02" }}</td>
         </tr>
       {{- end }}
     </table>
