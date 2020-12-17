@@ -22,11 +22,22 @@ I use a Apple Magic Mouse 2, which I just upgraded to from an Magic Mouse that I
 
 I've used Visual Studio Code for all development since around 2017. I don't use many of its advanced features, but have made a commitment to use the built in terminal and git integration more and it's been pretty good!
 
-I'm a sucker for the [Ocean Dark](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended) theme and I've made variations for Terminal.app as well. I've taken cues from the colors for this site as well.
+I'm a sucker for the [Ocean Dark](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended) theme and I've made variations for [Terminal.app](https://d1j4kwyjzsqmb8.cloudfront.net/KAM%20Ocean%20Dark.terminal) and [Alfred](https://d1j4kwyjzsqmb8.cloudfront.net/KAM%20Ocean%20Dark.alfredappearance) as well. I've taken cues from the colors for this site as well.
 
 I use the [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font from Adobe which is free and open source.
 
 Previously I used Sublime Text and TextMate (like everyone after DHH's infamous screencast) and have given vim more tries than I can count.
+
+# Desktop Wallpaper
+
+I love these polygonal desktop wallpapers and use them both on my desktop and phone. I've been using them for so long, I regret I don't remember where they came from:
+
+<div class="flex space-x-1">
+  <a href="https://d1j4kwyjzsqmb8.cloudfront.net/color1.png"><img src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:256/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvcEdzQWk2ZW0vY29sb3IxLnBuZw.png" /></a>
+  <a href="https://d1j4kwyjzsqmb8.cloudfront.net/color9.png"><img src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:256/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvWGVzWGlKWUIvY29sb3I5LnBuZw.png" /></a>
+  <a href="https://d1j4kwyjzsqmb8.cloudfront.net/color14.png"><img src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:256/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZTJzYWlRVkovY29sb3IxNC5wbmc.png" /></a>
+  <a href="https://d1j4kwyjzsqmb8.cloudfront.net/color18.png"><img src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:256/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvbmFzd2lhZTMvY29sb3IxOC5wbmc.png" /></a>
+</div>
 
 # Office
 
