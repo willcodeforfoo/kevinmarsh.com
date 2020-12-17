@@ -8,7 +8,7 @@ slug: til-running-tests-in-vs-code
 
 Since I've started using [Visual Studio Code](https://code.visualstudio.com/) (still seems weird to say that...) I've been looking for a way to easily run tests. Today I learned how you can easily [run tasks](https://code.visualstudio.com/docs/editor/tasks) in Code in the integrated terminal.
 
-![](https://cl.ly/mNhV/Screen%20Shot%202017-09-07%20at%204.16.10%20PM.png)
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvMkpzMGlnbm8vU2NyZWVuJTIwU2hvdCUyMDIwMTctMDktMDclMjBhdCUyMDQuMTYuMTAlMjBQTS5wbmc.png)
 
 ## Configure Task
 

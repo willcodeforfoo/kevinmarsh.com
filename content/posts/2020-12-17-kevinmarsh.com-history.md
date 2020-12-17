@@ -50,6 +50,6 @@ Switched to the more-or-less current layout which was originaly implemented in [
 
 I noticed some weird scrolling issues with Pure CSS and wanted to try Tailwind CSS anyway so I undertook rewriting the CSS and freshening things up a bit:
 
-![](https://icdn.remarkedusercontent.com/s/rs:fit:1024/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvRE1zMGlsMmsvU2NyZWVuJTIwU2hvdCUyMDIwMjAtMTItMTclMjBhdCUyMDEwLjM3LjQwJTIwQU0ucG5n.png)
+![](https://icdn.remarkedusercontent.com/s/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvRE1zMGlsMmsvU2NyZWVuJTIwU2hvdCUyMDIwMjAtMTItMTclMjBhdCUyMDEwLjM3LjQwJTIwQU0ucG5n.png)
 
 There's way more I want to do and way more I want to share, but this'll be Good Enough&trade; for now.

@@ -51,8 +51,6 @@ While I wish Apple Watch faces supported more customization, I really like the a
 | {{< swatch "#9B8E8C" >}} | Cocoa | `#9B8E8C` |
 | {{< swatch "#8C8C76" >}} | Dark Olive | `#8C8C76` |
 
-<img style="width: 320px; float: right; margin: 0 0 1em 1em;" src="https://d1j4kwyjzsqmb8.cloudfront.net/screenshots/2018/20180723-091000-thumb.jpg">
-
 Values were taken from screenshots of the Modular watch face on watchOS 5.0, AirDropped into Preview on a Mac with Digital Color Meter with `Display native values` selected. The hour/minute separator was sampled around the same location for every color.
 
 I've often thought there wasn't much variation between some of the shades on the Apple Watch. It was surprsing to me how distinctive some of the colors looked on my desktop display (a Dell P2715Q). I suspect it has more to do with seeing all the colors next to each other and not a deficiency in the Apple Watch's OLED screen's color rendition.
