@@ -5,7 +5,7 @@ aliases:
 ---
 
 <div class="text-xl mb-4">
-  Like most geeks, I spend an inordinate amount of time obsessing about technology choices. Here's some I'm happy with:
+  Like most geeks, I spend an inordinate amount of time obsessing about technology choices. Here are some I'm happy with:
 </div>
 
 I use a 2020 13&Prime; M1 MacBook Pro as my primary computer. It has been quite amazing, even given the fact it's a bit before its time with regard to compatibility. I'm impressed how snappy and responsive it feels so far.
