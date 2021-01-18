@@ -8,13 +8,15 @@ _20 years_ ago today I posted a [message](http://forums.winamp.com/showthread.ph
 
 ![Screenshot from Winamp Forums announcing SongMeanings](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvODZzTWlMblkvMjAyMTAxMTgtMTAyNTQ3LnBuZw.jpg)
 
-The reaction was amazing and the next few months were some of thrilling of my life. Some of the very same ups and downs of traffic, user growth, and server issues that dot-com era startups with millions in funding were dealing with were playing out in my bedroom, in-between classes my Senior year of high school, on AIM, and on various budget shared web hosts. I never told anyone in the real world about SongMeanings. My parents didn't know, my school friends didn't know. It was just my own online thing, part of my virtual persona. It even sounded weird to say it out loud because I had uttered it so few times.
+The reaction was amazing and the next few months were some of the most thrilling of my life. Some of the very same ups and downs of traffic, user growth, and server issues that dot-com era startups with millions in funding were dealing with were playing out in my bedroom, in-between classes my Senior year of high school, on AIM, and on various budget shared web hosts. I never told anyone in the real world about SongMeanings. My parents didn't know, my school friends didn't know. It was just my own online thing, part of my virtual persona. It even sounded weird to say "SongMeanings" out loud because I had uttered it so few times.
 
-I let SongMeanings slip out of my hands when I start college and it was moved forward from a scappy (illegal) site to a legit business. But money was never part of the equation with me and SongMeanings. I didn't have any to put in and never got anything out. But that never mattered.
+I let SongMeanings slip out of my hands when I start college and it was moved forward from a scappy (illegal) site to a legit business. But money was never part of the equation with me and SongMeanings. I didn't have any to put in and never got anything out. But that never mattered to me.
 
-But looking back I learned more about my current professional software life building SongMeanings than any book, class, or degree ever could have taught me. It was all about wanting to _build_ something, reading how others did it, copying and hacking away until it (mostly) worked, sharing it with the world hours later, and doing it all over again.
+Looking back I realized I learned more about my current professional software career building SongMeanings than any book, class, or degree ever could have taught me. It was just about wanting to _build_ something, reading how others did it, copying and hacking away until it (mostly) worked, sharing it with the world hours later, and doing it all over again.
 
 ## Up And Running 2 Decades Later
+
+<img width="256" class="float-right" src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:512:512/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZGxzbmlrTG0vU00tUmVzb3VyY2UtQ0QuanBn.jpg" />
 
 I found an old CD-R I had burned of the code and a database backup from October 2001 and wondered if I could get it running today. To my surprise, it took about 30 minutes to get the entire site up and running again in a Docker container, looking exactly like it did 20 years ago. Like a mosquito trapped in amber. PHP4 and MySQL 3.23 installed in fractions of a second in a [`debian/eol:potato` Docker image](https://hub.docker.com/r/debian/eol/) on a modern 32-core machine.[^2]
 
@@ -22,7 +24,7 @@ I found an old CD-R I had burned of the code and a database backup from October 
 
 Practically everything works: viewing artists, commenting on lyrics, even logging in. I typed in my old username and password and was instantly shown a summary of what had happened since the last time I logged in. 3 new Private Messages greeted me like an old friend. I viewed the very first lyric I posted to SongMeanings, Evaporated by Ben Folds Five:
 
-![](https://icdn.remarkedusercontent.com/s/q:90/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvbGJzMGk0RFcvMjAyMTAxMTgtMTEyOTA3LnBuZw.png)
+![](https://icdn.remarkedusercontent.com/s/q:90/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvbGJzMGk0RFcvMjAyMTAxMTgtMTEyOTA3LnBuZw.jpg)
 
 That song still has the same ID on SongMeanings today, 1: https://songmeanings.com/songs/view/1/. So much has changed but the roots are still there, intact.
 
