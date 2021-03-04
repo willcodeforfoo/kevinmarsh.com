@@ -22,8 +22,6 @@ Then (of course), MT was too much and I had to roll my own blog.
 
 ## 2006
 
-![kevinmarsh.com Screenshot from 2006](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1200/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3Mva0dzYWluZWIvU2NyZWVuJTIwU2hvdCUyMDIwMjAtMTItMTUlMjBhdCUyMDMuMzMuNTglMjBQTS5wbmc.png)
-
 The Georgia header and 11px Lucida Grande body copy layout emerges. I used this for a long time. I had a "moblog" on the sidebar, featuring photos I took on my Treo 650 that were automatically uploaded to Flickr. (It's amazing those [static.flickr.com](https://static.flickr.com/40/94186712_b47500085d.jpg) links still work to this day, even after Flickr was acquired.)
 
 It was running on [TextPattern](https://en.wikipedia.org/wiki/Textpattern), hosted on [TextDrive](https://en.wikipedia.org/wiki/TextDrive). Two blasts from the pasts. I was one of the original VC200 backers.

@@ -104,3 +104,7 @@
 .markdown :not(pre) > code.language-text {
   white-space: pre-line;
 }
+
+.footnotes ol {
+  @apply font-sans text-xs pt-2 text-gray-700 leading-relaxed;
+}

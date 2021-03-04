@@ -6,7 +6,7 @@ Static site built with [Hugo](https://gohugo.io) and [Tailwind CSS](https://tail
 
 ## Development
 
-    hugo server
+    hugo server -D -E -F
 
 ## Deployment
 
